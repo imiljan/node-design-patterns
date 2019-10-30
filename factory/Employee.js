@@ -1,6 +1,6 @@
-var Person = require('./Person');
+var Shopper = require('./Shopper');
 
-class Employee extends Person {
+class Employee extends Shopper {
   constructor(name, money = 0, employer) {
     super(name, money, true);
     this.employer = employer;

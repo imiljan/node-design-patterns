@@ -1,8 +1,6 @@
 class Person {
-  constructor(name, money = 0, employed = false) {
+  constructor(name = 'unnamed person') {
     this.name = name;
-    this.money = money;
-    this.employed = employed;
   }
 
   toString() {
